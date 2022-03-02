@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$(ls)\n"
+dirname "$(ls $(realpath $0))"
