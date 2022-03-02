@@ -1,2 +1,2 @@
 #!/bin/bash
-dirname "$(ls $(realpath $0))"
+ls
