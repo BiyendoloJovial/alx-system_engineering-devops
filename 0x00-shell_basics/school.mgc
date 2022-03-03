@@ -1,2 +1,6 @@
-0 String SCHOOL School data
-!:mine school
+#!/bin/bash
+0 string SCHOOL School data
+!:mine School
+chmod u+x school.mgc
+file -c -m my-magic
+file -c -m school.mgc *
